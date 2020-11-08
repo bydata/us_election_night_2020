@@ -26,8 +26,7 @@ custom_theme <- function(base_family = "Source Sans Pro", base_size = 20) {
         margin = margin(t = 16, b = 10)
       ),
       plot.subtitle = ggtext::element_markdown(
-        size = base_size * 1.05,
-        family = "Open Sans",
+        size = base_size * 1.025,
         margin = margin(b = 16),
         lineheight = 1.3
       ),
@@ -230,5 +229,7 @@ anim_save(here::here("plots", "ft_hollowing_animated.gif"),
           anim,
           duration = 16, end_pause = 20, width = 800, height = 600, type = "cairo")
 
+
+# Optimize gif at https://ezgif.com/optimize
 
   
