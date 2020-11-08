@@ -190,7 +190,7 @@ x_labels_colored <- glue::glue("<span style='color:{color_palette2}'>{x_labels}<
 plot_title <- "The Hollowing out of US Politics"
 plot_subtitle <- "How the US has grown more polarised by place,<br>
 with fewer evenly contested areas and ever more ultra-partisan counties."
-plot_caption <- "Source: @4nsgarW. Data: Harvard Dataverse (2000-2016), FT (2020). Inspiration: FT / John Burn-Murdoch."
+plot_caption <- "Source: github.com/bydata. Data: Harvard Dataverse (2000-2016), FT (2020). Inspiration: FT / John Burn-Murdoch."
 
 p <- df %>%
   ggplot(aes(margin_rep_grp, totalvotes_share)) +
